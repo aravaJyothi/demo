@@ -1,0 +1,22 @@
+footer{
+    background-image: url('../../assets/resources/pattern-hills.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: emoji;
+    font-size: 20px;
+    position:fixed;
+    bottom:5px;
+    left:0;
+    right:0;
+    width:100%;
+    height:20%;
+}
+
+img:hover{
+    background-color: hsl(345, 95%, 68%);
+}
+.centered{
+    position: fixed; /* or absolute */
+    top: 10%;
+    left: 40%;
+}

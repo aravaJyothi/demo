@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display';
+    font-size: 14px;
+    letter-spacing: 5px;
+  }
+@font-face {
+    font-family: "Red Hat Display";
+    src: url(./assets/resources/Red_Hat_Display/RedHatDisplay-Black.ttf) format("truetype");
+}
+
+
+  /* For iPhone 5 Portrait or Landscape View */
+  @media (min-width: 320px) 
+  and (max-width: 600px) 
+ {
+    .timer{
+        position: relative;
+        left:0;
+        bottom: 0;
+        top:0;
+        right:0;
+        font-size: 20px !important;
+        min-width:100px !important;
+        border-radius: 5px;  
+    }
+    .centered{
+        position: absolute;
+        left:10% !important;
+    }
+  }
+  
+  /* For iPhone 6 and 6 plus Portrait or Landscape View */
+  @media (device-height: 667px) 
+  and (device-width: 375px) 
+ {
+    .timer{
+        position: relative;
+        left:0;
+        bottom: 0;
+        top:0;
+        right:0;
+        font-size: 30px !important;
+        min-width:20px !important;
+        border-radius: 5px;
+        
+    }
+    .centered{
+        position: absolute;
+        left:10% !important;
+    }
+  } 
+ 
